@@ -19,6 +19,7 @@ public class Guru99HomePage {
 	
 	//Get the User name from Home Page
 		public String getHomePageDashboardUserName(){
+			System.out.println("In GitHub");
 		 return	homePageUserName.getText();
 		}
 }
